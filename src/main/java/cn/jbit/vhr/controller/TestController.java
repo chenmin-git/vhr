@@ -11,6 +11,7 @@ public class TestController {
     @GetMapping("/test")
     public String getTest() {
         System.out.println("shanima");
+        System.out.println("shabi?");
         return JSON.toJSONString("Stringjsdkaljfklsdjfkdslf");
     }
 
